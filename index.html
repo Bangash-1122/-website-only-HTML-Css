@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="main">
+    <section class="main" id="home">
         <div class="overlay"></div>
-        <img src="img 3.jpg">
+        <img src="img 3.jpg"/>
         <div class="navbar">
             <h1>Yummy</h1>
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Mission</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contect</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home">Mission</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contect</a></li>
                 </ul>
             </nav>
             <button type="button"><span></span>Order Now</button>
@@ -31,13 +31,13 @@
             </div>
         </div>
     </section>
-   <!-- menu section-->
-    <section class="menu">
-   <div class="menu-title">
+    <!-- menu section-->
+    <section class="menu" id="menu">
+    <div class="menu-title">
     <h3>OUR MENU</h3>
     <hr>
-   </div>
-   <div class="menu-row">
+    </div>
+    <div class="menu-row">
     <div class="col">
         <div class="overlay-1"></div>
         <img src="burger img.jpg.jpg" alt="A berger">
@@ -45,25 +45,25 @@
             <h4>BURGERS</h4>
         </div>
     </div>
-     <div class="col">
+        <div class="col">
         <div class="overlay-1"></div>
         <img src="img.dessert.jpg.jpg" alt=" A dessert">
         <div class="text">
             <h4>DESSERTS</h4>
         </div>
-     </div>
-      <div class="col">
+    </div>
+    <div class="col">
         <div class="overlay-1"></div>
         <img src="img coldcf.jpg.jpg" alt="This is cold Coffee">
         <div class="text">
             <h4>SHAKES</h4>
         </div>
-      </div>
-   </div>
+    </div>
+    </div>
     </section>
 
     <!--about section-->
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-row">
             <div class="col-1">
                 <img src="img.last burgerpic..jpg">
@@ -80,7 +80,7 @@
         </div>
     </section>
     <!--Contact section-->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-title">
             <h5>CONTACT US</h5>
             <hr>
@@ -99,5 +99,6 @@
     <h2>&copy; Powered by webdeveloperOfficial</h2>
 </section>
 
+<script src="script.js"></script>
 </body>
 </html>
